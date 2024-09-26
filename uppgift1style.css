@@ -13,7 +13,9 @@ body {
 h1 {
     color: purple;
     text-align: center;
+}
 
+div {
     border-width: 1px;
     border-style: solid;
     border-color: purple;
@@ -32,16 +34,15 @@ h1 {
     text-decoration: line-through;
 }
 
-#bob two {
-    text-decoration: underline;
-    text-decoration: overline;
+#bob .two a {
     color: orange;
+    text-decoration: underline overline;
 }
 
-two {
-    size: larger;
+.two {
+    font-size: larger;
 }
 
-trhee {
-    size: smaller;
+.three {
+    font-size: smaller;
 }
