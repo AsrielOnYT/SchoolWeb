@@ -1,0 +1,48 @@
+.header {
+    background-color: darkorchid;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.content {
+    background-color: darkorchid;
+    margin: 15px;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.content:hover {
+    background-color: rgb(186, 84, 237);
+    margin: 15px;
+    padding: 20px;
+    border: 2px solid darkorchid;
+    border-radius: 5px;
+}
+
+.hamburger {
+    background-color: darkorchid;
+    margin: 15px;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.hamburger:hover {
+    background-color: rgb(186, 84, 237);
+    margin: 15px;
+    padding: 20px;
+    border: 2px solid darkorchid;
+    border-radius: 5px;
+}
+
+.footer {
+    background-color: darkorchid;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
