@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(138, 46, 184);
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+    text-align: center;
+    color: white;
+}
+
+footer {
+    width: 100%;
+}
+
+#gamerDiv {
+    width: 33%;
+}
+
+.header {
+    background-color: darkorchid;
+    padding: 20px;
+    text-align: center;
+}
+
+.content, .hamburger, .fish {
+    background-color: darkorchid;
+    margin: 15px;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.content:hover, .hamburger:hover, .fish:hover {
+    background-color: rgb(186, 84, 237);
+    margin: 15px;
+    padding: 20px;
+    border: 2px solid darkorchid;
+    border-radius: 5px;
+}
+
+.footer {
+    background-color: darkorchid;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
