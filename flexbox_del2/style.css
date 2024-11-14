@@ -1,0 +1,32 @@
+.container {
+    width: 60%;
+    height: 80%;
+    margin: 40px auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.main {
+    display: flex;
+    flex: 1;
+}
+
+header, footer {
+    background-color: lightslategrey;
+    padding: 15px;
+}
+
+nav, section {
+    height: 400px;
+}
+
+nav {
+    background-color: lightgray;
+    width: 25%;
+}
+
+section {
+    background-color: whitesmoke;
+    width: 75%;
+}
