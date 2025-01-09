@@ -1,3 +1,78 @@
-h1, nav {
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 2.5em;
+    
+}
+
+nav, p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+html {
+    background-image: linear-gradient(to right, rgb(255, 237, 210), rgb(255, 227, 186));
+}
+
+.products {
+    display: flex;
+    flex-direction: row;
+    margin: 10px auto;
+    
+
+    justify-content: center;
+    align-items: flex-start;
+
+    justify-content: space-around;
+
+    flex-wrap: wrap;
+
+    width: 70%;
+    height: 1000px;
+
+    background-color: rgb(255, 223, 175);
+}
+
+.Product {
+    display: flex;
+    margin: 10px;
+
+    width: 250px;
+    height: 275px;
+
+    justify-content: center;
+    align-items: center;
+
+    background-color: bisque;
+}
+
+.Product img {
+    margin-top: -25px;
+}
+
+.Product div {
+    position: absolute;
+    width: 250px;
+    height: auto;
+
     text-align: center;
+
+    margin-top: 225px;
+    margin-left: auto;
+    margin-right: auto;
+
+    background-color: aquamarine;
+}
+
+.Product div:hover {
+    background-color: rgb(0, 255, 170);
+    cursor: pointer;
+}
+
+.Product div:hover:active {
+    background-color: crimson;
+    color: whitesmoke;
 }
