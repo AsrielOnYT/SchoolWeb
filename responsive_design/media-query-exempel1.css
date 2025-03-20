@@ -1,0 +1,36 @@
+@media screen and (min-width: 420px) {
+    body {
+        margin: 2px;
+        font-size: large;
+    }
+
+    h1 {
+        font-size: larger;
+    }
+    h2 {
+        font-size: larger;
+    }
+}
+
+@media screen and (min-width: 794px) {
+    body {
+        margin: 1px;
+        font-size: larger;
+    }
+}
+
+@media screen and (min-width: 1020px) {
+    body {
+        background-color: antiquewhite;
+        margin: 3px;
+        font-size: larger;
+        max-width: 80%;
+    }
+}
+
+img {
+    max-width: 100%;
+}
+figure {
+    margin: 0;
+}
