@@ -1,0 +1,27 @@
+body {
+    background-image: linear-gradient(to bottom right, #413a60, #534d74);
+}
+
+h1, p {
+    color: azure;
+}
+
+a {
+    color: lightsteelblue;
+}
+
+.intro {
+    text-align: center;
+}
+
+.sections {
+    display: flex;
+    height: 25px;
+    width: 50vw;
+    margin: auto;
+    padding: auto;
+    
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+}

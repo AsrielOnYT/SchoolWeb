@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/riskOfRain.css">
+    <link rel="stylesheet" href="css/infoCard.css">
+    <script type="text/javascript" src="js/infoCard.js" defer></script>
+</head>
+<body>
+    <div id="popup-modal" class="modal">
+        <div class="modal-content">
+            <span id="close">&times;</span>
+            <h3 id="modal-title"></h3>
+            <textarea disabled id="modal-desc"></textarea>
+        </div>
+    </div>
+
+    <div class="intro">
+        <h1>Risk of Rain</h1>
+        <a href="index.html">Return to homepage</a>
+        <p>Released in 2013 Risk of Rain is a 2D platformer roguelike game made using the GameMaker game engine</p>
+        <img src="img/RiskOfRain/Risk_of_Rain_Cover.png" alt="Risk of Rain cover art">
+        <img src="img/RiskOfRain/Risk_of_Rain_screenshot.png" height="300" width="400" alt="Someone fighting a bunch of enemies">
+        <br>
+    </div>
+
+    <div class="Survivors">
+        <h2>Survivors</h2>
+        <p>Risk of Rain has 12 different characters to play as, each with their own abilities and playstyles</p>
+        <ul id="survivors1" class="image-list">
+            <li data-title="Commando" data-description=
+"Commando is the first survivor you have available, the abilities Commando has are:
+
+'Double Tap' which makes you shoot twice dealing 2x60% damage
+'Full Metal' Jacket which shoots a piercing shot dealing 230% damage and knockback
+'Tactical Dive' which makes you do a roll
+and
+'Suppressive Fire' which makes you shoot multiple quick shots dealing 6x60% damage and stuns enemies">
+                <img src="img/RiskOfRain/Survivors/Commando.webp">
+            </li>
+            <li data-title="Enforcer" data-description=
+"Enforcer has the abilities:
+
+'Riot Shotgun' which shoots a short range blast dealing 160% damage
+'Shield Slam' which is a melee attack that deals knockback and 210% damage
+'Protect and Serve' enters a defesive stance blocking damage from the front, increases attack speed but reduces movement speed
+and
+'Crowd Control' which launches a stun grenade that stuns enemies and deals 250% damage to nearby enemies">
+                <img src="img/RiskOfRain/Survivors/Enforcer.webp">
+            </li>
+            <li data-title="Bandit" data-description=
+"Bandit has the abilities:
+
+'Blast' that shoots a powerful slug dealing 150% damage
+'Dynamite Toss' that throws a dynamite which deals 230% damage
+'Smokebomb' that stuns enemies for 200% damage and turns the player invisible
+using another ability while invisible will surprise and stun enemies for 200% damage
+and
+'Lights Out' which aims for a headshot dealing 600% damage
+killing an enemy with the ability will reset all ability cooldowns">
+                <img src="img/RiskOfRain/Survivors/Bandit.webp">
+            </li>
+            <li data-title="Huntress" data-description=
+"Huntress has the abilities:
+
+'Strafe' which shoots an arrow dealing 120% damage
+'Laser Glaive' throws a glaive that bounces off enemies dealing 300% damage and 30% per bounce
+'Blink' teleports you forward a short distance
+and
+'Cluster Bomb' fires an arrow dealing 320% damage which drops bomblets that deal 6x80% damage">
+                <img src="img/RiskOfRain/Survivors/Huntress.png">
+            </li>
+            <li data-title="HAN-D" data-description=
+"HAN-D has the abilities:
+
+'Hurt' melee attack that deals 180% damage
+'Drone' that deploys a drone that shoots enemies for 190% while also heals you
+'Overclock' that increases attack speed and stun chance
+and
+'Forced_Reassembly' heavy melee attack that deals 500% damage knocking them into the air">
+                <img src="img/RiskOfRain/Survivors/HAN-D.webp">
+            </li>
+            <li data-title="Engineer" data-description=
+"Engineer has the abilities:
+
+'Tri-nade' shoots 3 grenades dealing 3x80% damage
+'Bounding Mine' drops a trap that explodes for 300% damage
+'Thermal Harpoons' launch heat-seeking harpoons that deal 4x250% damage
+and
+'Auto Turret' drop a turret that shoots enemies for 3x100% damage">
+                <img src="img/RiskOfRain/Survivors/Engineer.webp">
+            </li>
+        </ul>
+        <ul id="survivors2" class="image-list">
+            <li data-title="Miner" data-description="WIP">
+                <img src="img/RiskOfRain/Survivors/Miner.webp">
+            </li>
+            <li data-title="Sniper" data-description="WIP">
+                <img src="img/RiskOfRain/Survivors/Sniper.webp">
+            </li>
+            <li data-title="Acrid" data-description="WIP">
+                <img src="img/RiskOfRain/Survivors/Acrid.webp">
+            </li>
+            <li data-title="Mercenary" data-description="WIP">
+                <img src="img/RiskOfRain/Survivors/Mercenary.webp">
+            </li>
+            <li data-title="Loader" data-description="WIP">
+                <img src="img/RiskOfRain/Survivors/Loader.webp">
+            </li>
+            <li data-title="CHEF" data-description="WIP">
+                <img src="img/RiskOfRain/Survivors/CHEF.webp">
+            </li>
+        </ul>
+    </div>
+
+    <div class="Enemies">
+        <h2>Enemies</h2>
+
+        <p>there are way too many enemies for me to make a list of all of them</p>
+        <p>so here's a small list of the names of SOME of the enemies you encounter</p>
+        <br>
+        <ul>
+            <li>
+                <p>Lemurian</p>
+            </li>
+            <li>
+                <p>Rock Golem</p>
+            </li>
+            <li>
+                <p>Wisp</p>
+            </li>
+            <li>
+                <p>Gup</p>
+            </li>
+            <li>
+                <p>Sand Crab</p>
+            </li>
+        </ul>
+        <br>
+        <p>Enemies can also be an "Elite" variant</p>
+        <p>these enemies are stronger, have more HP and deal elemental damage</p>
+    </div>
+
+    <div class="Bosses">
+        <h2>Bosses</h2>
+
+        <p>Just like most games, there are bosses to fight</p>
+        <p>so here's just a list of the names of bosses</p>
+
+        <ul>
+            <li>
+                <p>Colossus</p>
+            </li>
+            <li>
+                <p>Wandering Vagrant</p>
+            </li>
+            <li>
+                <p>Magma Worm</p>
+            </li>
+            <li>
+                <p>Ancient Wisp</p>
+            </li>
+            <li>
+                <p>Imp Overlord</p>
+            </li>
+            <li>
+                <p>Ifrit</p>
+            </li>
+            <li>
+                <p>Toxic Beast</p>
+            </li>
+            <li>
+                <p>Cremator</p>
+            </li>
+            <li>
+                <p>Scavenger</p>
+            </li>
+            <li>
+                <p>Providence</p>
+            </li>
+        </ul>
+    </div>
+
+    <div class="Items">
+        <h2>Items</h2>
+
+        <p>Items make you stronger to fight enemies</p>
+        <p>but because there are like 100 i'll just show like</p>
+        <p>5 items per rarity, which there are 4 different rarities i'll be using</p>
+        <br>
+        <br>
+        <h3>Common</h3>
+        <ul id="commonItems" class="image-list">
+            <li data-title="Crowbar" data-description=
+"On Hit deals +50% damage to enemies above 80% health
++30% damage each stack">
+                <img src="img/RiskOfRain/Items/Common/ItemCrowbar.webp">
+            </li>
+            <li data-title="Bustling Fungus" data-description=
+"After standing still for 2 seconds
+heal +4.5% HP every second, which stacks with amount of duplicates">
+                <img src="img/RiskOfRain/Items/Common/ItemFungus.webp">
+            </li>
+            <li data-title="Gasoline" data-description=
+"On Kill burns the ground for 60% damage every second for 2 seconds
++40% damage each stack">
+                <img src="img/RiskOfRain/Items/Common/ItemGasoline.webp">
+            </li>
+            <li data-title="Lens Maker's Glasses" data-description=
+"+10% crit chance
+stacks multiplicatively">
+                <img src="img/RiskOfRain/Items/Common/ItemGlasses.webp">
+            </li>
+            <li data-title="Soldier's Syringe" data-description=
+"+15% attack speed
++15% each stack up to a max of 13 stacks">
+                <img src="img/RiskOfRain/Items/Common/ItemSyringe.webp">
+            </li>
+        </ul>
+        <h3>Uncommon</h3>
+        <ul id="uncommonItems" class="image-list">
+            <li data-title="Tough Times" data-description=
+"+14 armor
++14 armor each stack">
+                <img src="img/RiskOfRain/Items/Uncommon/ItemBear.webp">
+            </li>
+            <li data-title="Hopoo Feather" data-description=
+"Gains an additional jump
+Adds another jump each stack">
+                <img src="img/RiskOfRain/Items/Uncommon/ItemFeather.webp">
+            </li>
+            <li data-title="Ukulele" data-description=
+"On Hit 20% chance to fire chain lightning for 4x33% damage
++33% damage bonus each stack">
+                <img src="img/RiskOfRain/Items/Uncommon/ItemUkelele.webp">
+            </li>
+            <li data-title="Will-o'-the-wisp" data-description=
+"On Kill 33% chance to create a lava pillar dealing 500% damage
+increases damage each stack">
+                <img src="img/RiskOfRain/Items/Uncommon/ItemWisp.webp">
+            </li>
+            <li data-title="Infusion" data-description=
+"On Kill increase max health by 1
++0.5 health per kill each stack">
+                <img src="img/RiskOfRain/Items/Uncommon/ItemInfusion.webp">
+            </li>
+        </ul>
+        <h3>Rare</h3>
+        <ul id="rareItems" class="image-list">
+            <li data-title="Tesla Coil" data-description=
+"Shock nearby enemies for 150% damage, bounces to other nearby enemies up to 5 times
++50% damage each stack">
+                <img src="img/RiskOfRain/Items/Rare/ItemCoil.webp">
+            </li>
+            <li data-title="Dio's Best Friend" data-description=
+"On Death revive at 40% health with two seconds of invincibility
+cant stack, but if effect has been used, it can be used again on pickup">
+                <img src="img/RiskOfRain/Items/Rare/ItemDio.webp">
+            </li>
+            <li data-title="Shattering Justice" data-description=
+"On Hit reduce enemy armor by 5 for two seconds, can be stacked up to 5 times
++0.5 second debuff duration increase each stack">
+                <img src="img/RiskOfRain/Items/Rare/ItemHammer.webp">
+            </li>
+            <li data-title="Telescopic Sight" data-description=
+"On Hit 1% chance to instantly kill an enemy
++0.5% instakill chance each stack with a max chance of 3%">
+                <img src="img/RiskOfRain/Items/Rare/ItemScope.webp">
+            </li>
+            <li data-title="Brilliant Behemoth" data-description=
+"All attacks explode for a +20% bonus damage to nearby enemies
++20% explosion damage each stack">
+                <img src="img/RiskOfRain/Items/Rare/ItemBehemoth.webp">
+            </li>
+        </ul>
+        <h3>Boss Items</h3>
+        <ul id="bossItems" class="image-list">
+            <li data-title="Ifrit's Horn" data-description=
+"On Hit 8% chance to incinerate on-screen enemies for 220% damage
++30% damage each stack">
+                <img src="img/RiskOfRain/Items/Boss/ItemHorn.webp">
+            </li>
+            <li data-title="Colossal Knurl" data-description=
+"+40 Max health, +1.2 health regen, +6 armor
+same increase for each stack">
+                <img src="img/RiskOfRain/Items/Boss/ItemKnurl.webp">
+            </li>
+            <li data-title="Legendary Spark" data-description=
+"On Hit has an 8% chance to smite on-screen enemies dealing 200% damage
++1 extra 200% damage smite each stack">
+                <img src="img/RiskOfRain/Items/Boss/ItemSpark.webp">
+            </li>
+            <li data-title="Imp Overlord's Tentacle" data-description=
+"Summon an imp as a body guard, the imp revives every 60 seconds
+increases imp strength each stack">
+                <img src="img/RiskOfRain/Items/Boss/ItemTentacle.webp">
+            </li>
+            <li data-title="Burning Witness" data-description=
+"On Kill +5% movement speed, +1% damage and leaves a trail of fire on the floor where you walk for 6 seconds
++5% movement speed and increases duration each stack">
+                <img src="img/RiskOfRain/Items/Boss/ItemWitness.webp">
+            </li>
+        </ul>
+    </div>
+</body>
+</html>

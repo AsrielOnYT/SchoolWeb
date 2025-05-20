@@ -1,0 +1,30 @@
+body {
+    background-image: linear-gradient(to bottom right, #413a60, #534d74);
+}
+
+h1, h2, h3, p, a {
+    color: azure;
+}
+
+.intro {
+    text-align: center;
+}
+
+.image-list {
+    list-style: none;
+    display: flex;
+
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.image-list li {
+    padding: 0px;
+    height: auto;
+}
+
+.image-list li:hover {
+    cursor: pointer;
+    background-color: #312C49;
+    filter: brightness(90%) opacity(90%);
+}

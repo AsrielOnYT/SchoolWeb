@@ -1,0 +1,42 @@
+.modal 
+{
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: auto;
+  background-color: rgba(0,0,0,0.6);
+}
+
+.modal-content 
+{
+  background-image: linear-gradient(to bottom right, #413a60, #534d74);
+  margin: 10% auto;
+  padding: 2vh 2vw;
+  border: 1px solid #888;
+  width: 60vw;
+  border-radius: 1vw;
+  text-align: center;
+}
+
+#modal-desc {
+    resize: none;
+    line-height: 1.5;
+    width: 80%;
+    height: 50vh;
+    
+    color: azure;
+    background-color: #312C49;
+}
+
+#close 
+{
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  cursor: pointer;
+}
